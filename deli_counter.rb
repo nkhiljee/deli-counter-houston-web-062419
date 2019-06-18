@@ -8,7 +8,7 @@ def line(array)
     message = "The line is currently:"
     
     array.each_with_index do |value, index|
-    message += " #{katz_deli.length}. #{katz_deli}"
+    message += " #{index.to x + 1}. #{value}"
     
     end
   puts "#{message}"  
