@@ -10,6 +10,7 @@ def line(array)
     message += " #{katz_deli.length}. #{katz_deli}"
     
     end
+  return message  
   end
 end
 
