@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     i = 0
     loop
-    puts "The line is currently: " + {katz_deli.length} + ". " + {katz_deli}
+    puts "The line is currently: " + katz_deli.length + ". " + {katz_deli}
     i += 1
   end
 end
