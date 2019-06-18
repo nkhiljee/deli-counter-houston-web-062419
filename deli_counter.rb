@@ -7,7 +7,7 @@ def line(array)
   else
     message = "The line is currently:"
     array.each do
-    message += " #{katz_deli.length}. #{katz_deli[i+1]}"
+    message += " #{katz_deli.length}. #{katz_deli}"
     
     end
   end
