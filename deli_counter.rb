@@ -11,7 +11,7 @@ def line(array)
     message += " #{katz_deli.length}. #{katz_deli}"
     
     end
-  puts "#{message}""  
+  puts "#{message}"  
   end
 end
 
