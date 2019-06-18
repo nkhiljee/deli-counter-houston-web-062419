@@ -18,3 +18,7 @@ def take_a_number(array, name)
   position = array.index(name)
   puts "Welcome, #{name}. You are number #{position+1} in line."
 end
+
+def now_serving(array)
+  if array.length == 10 
+    puts "There is nobody waiting to be served!"
