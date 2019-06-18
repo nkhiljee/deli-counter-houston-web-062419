@@ -3,7 +3,7 @@ katz_deli = [];
 
 def line(katz_deli)
   if (katz_deli.length == 0)
-    puts "the line is currently empty."
+    puts "The line is currently empty."
   else
     puts "your current number is #{katz_deli.length}."
   end
